@@ -23,7 +23,7 @@ $ sudo apt-get update
 #### Step 3 Clone the Package in src:
 ```sh
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/udacity/RoboND-EKFLAB
+$ git clone https://github.com/udacity/RoboND-EKFLab
 ```
 
 #### Step 4 Install Packages Dependancies:
