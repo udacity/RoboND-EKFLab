@@ -1,7 +1,7 @@
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
 # RoboND-EKFLab
-Students will be able to drive the robot around in simulation and observe the `Odom` and `EKF` trajectories.  
+In this lab, you will be applying an EKF ROS package to localize your robot inside a Gazebo environment. In the end, you will be able to drive the robot around in simulation and observe the `Odom` and `EKF` trajectories.   
 
 ### Steps to Launch the Simulation:
 Launch the simulation in the VM machine provided in Term1. 
