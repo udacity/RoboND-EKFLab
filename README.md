@@ -48,7 +48,7 @@ Now, you should see Gazebo and rviz launching. Please note that Gazebo might tak
 
 
 ### End Result:
-In the terminal, use the keyboard commands(u-i-o-j-k-l-n-m-<) and drive the robot around. The `red` trajectory represents the `Odom path` whereas the `green` trajectory represents the `EKF path`.
+In the terminal, use the keyboard commands(u-i-o-j-k-l-m-,-.) and drive the robot around. The `red` trajectory represents the `Odom path` whereas the `green` trajectory represents the `EKF path`.
 
 
 ![alt text](Outcome.png)
