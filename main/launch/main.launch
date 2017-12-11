@@ -59,7 +59,7 @@
   </node>
 
   <!--RVIZ-->
-  <node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/catkin_ws/src/RoboND-EKFLab/Rvizconfig.rviz"/>
+  <node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/catkin_ws/src/RoboND-EKFLab/EKFLab.rviz"/>
 
 
   <!--Turtlebot Teleop-->
