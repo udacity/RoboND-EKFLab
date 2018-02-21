@@ -59,8 +59,9 @@
   </node>
 
   <!--RVIZ-->
-  <node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/catkin_ws/src/robot_pose_ekf/EKFLab.rviz"/>
-
+  <node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/catkin_ws/src/EKFLab.rviz"/>
+  <!--Use this insted if you are cloning the whole repo in your src-->
+  <!--<node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/catkin_ws/src/RoboND-EKFLab/EKFLab.rviz"/>-->
 
   <!--Turtlebot Teleop-->
   <node pkg="turtlebot_teleop" type="turtlebot_teleop_key" name="turtlebot_teleop_keyboard"  output="screen">
