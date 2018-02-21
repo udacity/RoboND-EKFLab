@@ -26,7 +26,14 @@ $ cd ~/catkin_ws/src
 $ git clone https://github.com/udacity/RoboND-EKFLab
 ```
 
-#### Step 4 Install Packages Dependancies:
+#### Step 4 Edit the main.launch file:
+Under main/launch, edit the main.launch file:
+```html
+Delete this: <node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/catkin_ws/src/EKFLab.rviz"/>
+Replace with: <node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/catkin_ws/src/RoboND-EKFLab/EKFLab.rviz"/>
+```
+
+#### Step 5 Install Packages Dependancies:
 ```sh
 $ cd ~/catkin_ws/
 $ source devel/setup.bash
@@ -34,13 +41,13 @@ $ rosdep -i install turtlebot_gazebo
 $ rosdep -i install turtlebot_teleop
 ```
 
-#### Step 5 Build the Packages:
+#### Step 6 Build the Packages:
 ```sh
 $ catkin_make
 $ source devel/setup.bash
 ```
 
-#### Step 6 Launch the main file:
+#### Step 7 Launch the main file:
 ```sh
 $ roslaunch main main.launch
 ```
