@@ -8,8 +8,8 @@ Launch the simulation in the VM machine provided in Term1.
 
 #### Step 1 Create a Catkin Workspace:
 ```sh
-$ mkdir -p ~/catkin_ws/src
-$ cd ~/catkin_ws/src
+$ mkdir -p /home/workspace/catkin_ws/src
+$ cd /home/workspace/catkin_ws/src
 $ catkin_init_workspace
 $ cd ..
 $ catkin_make
@@ -17,25 +17,25 @@ $ catkin_make
 
 #### Step 2 Perform a System Update:
 ```sh
-$ sudo apt-get update
+$ apt-get update
 ```
 
 #### Step 3 Clone the Package in src:
 ```sh
-$ cd ~/catkin_ws/src
+$ cd /home/workspace/catkin_ws/src
 $ git clone https://github.com/udacity/RoboND-EKFLab
 ```
 
 #### Step 4 Edit the main.launch file:
 Under main/launch, edit the main.launch file:
 ```html
-Delete this: <node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/catkin_ws/src/EKFLab.rviz"/>
-Replace with: <node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/catkin_ws/src/RoboND-EKFLab/EKFLab.rviz"/>
+Delete this: <node pkg="rviz" type="rviz" name="rviz" args="-d /home/workspace/catkin_ws/src/EKFLab.rviz"/>
+Replace with: <node pkg="rviz" type="rviz" name="rviz" args="-d /home/workspace/catkin_ws/src/RoboND-EKFLab/EKFLab.rviz"/>
 ```
 
 #### Step 5 Install Packages Dependancies:
 ```sh
-$ cd ~/catkin_ws/
+$ cd /home/workspace/catkin_ws/
 $ source devel/setup.bash
 $ rosdep -i install turtlebot_gazebo
 $ rosdep -i install turtlebot_teleop

@@ -1,6 +1,4 @@
 <launch>
-
   <!--RVIZ-->
-  <node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/catkin_ws/src/RoboND-EKFLab/EKFLab.rviz"/>
-
+  <node pkg="rviz" type="rviz" name="rviz" args="-d /home/workspace/catkin_ws/src/EKFLab.rviz"/>
 </launch>

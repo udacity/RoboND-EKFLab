@@ -8,6 +8,7 @@ Panels:
         - /Status1
         - /Grid1
         - /Camera1
+        - /EKFPath1
         - /OdomPath1
       Splitter Ratio: 0.5
     Tree Height: 363
@@ -299,6 +300,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
+    Default Light: true
     Fixed Frame: base_footprint
     Frame Rate: 30
   Name: root
@@ -320,7 +322,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 1.46973848
+      Distance: 7.95037317
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
@@ -332,12 +334,13 @@ Visualization Manager:
         Z: 0
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
+      Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.785398006
+      Pitch: 0.775398016
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.785398006
+      Yaw: 0.770398021
     Saved: ~
 Window Geometry:
   Camera:
